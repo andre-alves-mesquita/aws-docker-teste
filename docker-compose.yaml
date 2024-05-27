@@ -10,6 +10,8 @@ services:
       - 3000:3000
     networks: 
       - aws-network
+    volumes: 
+      - ./frontend:/frontend
   backend:
     build:
       context: ./backend
@@ -18,6 +20,8 @@ services:
       - 3001:3001
     networks: 
       - aws-network
+    volumes: 
+      - ./backend/:/backend
   mysql:
     image: mysql:8.4.0
     environment:
