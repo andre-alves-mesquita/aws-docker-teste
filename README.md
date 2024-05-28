@@ -9,6 +9,9 @@
  <img alt="Made by tgmarinho" src="https://img.shields.io/badge/Laravel-v11-FF2D20?style=plano&logo=laravel"> 
  <img alt="Made by tgmarinho" src="https://img.shields.io/badge/MySql-v8-4479A1?style=plano&logo=mysql"> 
  <img alt="Made by tgmarinho" src="https://img.shields.io/badge/Nginx-v1.25.5-009639?style=plano&logo=nginx"> 
+ <img alt="Made by tgmarinho" src="https://img.shields.io/badge/Nginx-v1.25.5-009639?style=plano&logo=nginx"> 
+ <img alt="Made by tgmarinho" src="https://img.shields.io/badge/React-v18.3.1-61DAFB?style=plano&logo=react"> 
+ <img alt="Made by tgmarinho" src="https://img.shields.io/badge/Composer-v2.7.6-885630?style=plano&logo=composer"> 
 
  
 <div>
@@ -36,6 +39,7 @@ Projeto utilizado para levantar um projeto docker já funcional com Laravel, Exp
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Docker](https://www.docker.com/)
+[Composer](https://getcomposer.org/)
 
 </div>
 
@@ -46,6 +50,36 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 # Clone este repositório
 $ git clone https://github.com/andre-alves-mesquita/aws-docker-teste.git
 
+# Entre da pasta do projeto
+$ cd aws-docker-teste
+
+# Entre da pasta backend, fronted e instale as dependencias do Express e React
+$ npm install
+
+# Crie também o arquivo .env no backend com as seguintes informações
+$ BACK_DB_DATABASE=
+$ BACK_DB_USER=
+$ BACK_DB_PASS=
+$ BACK_DB_DIALECT=
+$ BACK_DB_HOST=
+$ BACK_DB_PORT=
+
+# Crie também o arquivo .env na raiz do projeto
+$ DB_ROOT_PASSWORD=
+$ DB_DATABASE=
+$ DB_USER=
+$ DB_PASSWORD=
+$ DB_PORT=
+$ DB_DIALECT=
+
+# Entre da pasta laravel e instale as dependencias do Laravel
+$ composer install
+
+# Execute o projeto
+$ docker compose up -d --build
+
+# Execute o projeto
+$ docker compose exec php php artisan migrate
 
 ```
 
