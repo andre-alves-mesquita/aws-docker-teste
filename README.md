@@ -9,7 +9,6 @@
  <img alt="Made by tgmarinho" src="https://img.shields.io/badge/Laravel-v11-FF2D20?style=plano&logo=laravel"> 
  <img alt="Made by tgmarinho" src="https://img.shields.io/badge/MySql-v8-4479A1?style=plano&logo=mysql"> 
  <img alt="Made by tgmarinho" src="https://img.shields.io/badge/Nginx-v1.25.5-009639?style=plano&logo=nginx"> 
- <img alt="Made by tgmarinho" src="https://img.shields.io/badge/Nginx-v1.25.5-009639?style=plano&logo=nginx"> 
  <img alt="Made by tgmarinho" src="https://img.shields.io/badge/React-v18.3.1-61DAFB?style=plano&logo=react"> 
  <img alt="Made by tgmarinho" src="https://img.shields.io/badge/Composer-v2.7.6-885630?style=plano&logo=composer"> 
 
@@ -30,7 +29,7 @@
 	🚧  Projeto Docker 🚀 em construção...  🚧 
 </h4>
 <h5>
-Projeto utilizado para levantar um projeto docker já funcional com Laravel, Express e React
+Projeto utilizado para levantar um projeto docker já funcional com Laravel, Express e React com banco de dados integrado em todos os projetos
 </h5>
 
 <div align="left" id="prerequisitos">
