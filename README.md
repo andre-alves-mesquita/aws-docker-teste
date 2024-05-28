@@ -2,11 +2,15 @@
 <img src="Docker-Logo.png" width="300" >
 </div>
 <br>
-
 <div align="center">
+ <img alt="Made by tgmarinho" src="https://img.shields.io/badge/Docker-v26.1.1-2496ED?style=plano&logo=docker"> 
  <img alt="Made by tgmarinho" src="https://img.shields.io/badge/Node-v20.11.1-5FA04E?style=plano&logo=nodedotjs"> 
- <img alt="Made by tgmarinho" src="https://img.shields.io/badge/Vuejs-v3.4.21-%2304D361?style=plano&logo=vuedotjs"> 
  <img alt="Made by tgmarinho" src="https://img.shields.io/badge/Express-v4.19.2-000000?style=plano&logo=express">
+ <img alt="Made by tgmarinho" src="https://img.shields.io/badge/Laravel-v11-%FF2D20?style=plano&logo=laravel"> 
+ <img alt="Made by tgmarinho" src="https://img.shields.io/badge/MySql-v8-%4479A1?style=plano&logo=mysql"> 
+ <img alt="Made by tgmarinho" src="https://img.shields.io/badge/NGINX-v1.25.5-%009639?style=plano&logo=nginx"> 
+
+ 
 <div>
 <br>
 <p align="center">
