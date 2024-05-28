@@ -1,7 +1,12 @@
 FROM node:18-alpine
 WORKDIR /frontend
-COPY . .
-RUN rm -rf node_modules
+
+# RUN rm -rf node_modules
+COPY package*.json ./
 RUN npm install
-CMD ["npm", "start"]
+
+COPY . .
+
 EXPOSE 3000
+
+CMD ["npm", "start"]
