@@ -55,7 +55,7 @@ $ cd aws-docker-teste
 # Entre da pasta backend, fronted e instale as dependencias do Express e React
 $ npm install
 
-# Crie também o arquivo .env no backend com as seguintes informações
+# Crie também o arquivo .env no backend com as seguintes informações, caso queira usar o mysql como seu banco de dados
 $ BACK_DB_DATABASE=
 $ BACK_DB_USER=
 $ BACK_DB_PASS=
@@ -71,11 +71,11 @@ $ DB_PASSWORD=
 $ DB_PORT=
 $ DB_DIALECT=
 
+# Caso queira usar o Sqlite, entre da pasta laravel e crie o banco de dados em:
+$ laravel/database/database.sqlite
+
 # Entre da pasta laravel e instale as dependencias do Laravel
 $ composer install
-
-# Entre da pasta laravel e crie o banco de dados
-$ laravel/database/database.sqlite
 
 # Caso haja problemas com geração de chave, execute:
 $ php artisan key:generate
