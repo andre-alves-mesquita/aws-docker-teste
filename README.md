@@ -74,6 +74,12 @@ $ DB_DIALECT=
 # Entre da pasta laravel e instale as dependencias do Laravel
 $ composer install
 
+# Entre da pasta laravel e crie o banco de dados
+$ laravel/database/database.sqlite
+
+# Caso haja problemas com geração de chave, execute:
+$ php artisan key:generate
+
 # Execute o projeto
 $ docker compose up -d --build
 
